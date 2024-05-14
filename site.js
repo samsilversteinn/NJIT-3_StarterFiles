@@ -39,10 +39,17 @@ const vue_app = Vue.createApp({
             github : 'https://github.com/samsilversteinn/NJIT-3_StarterFiles'
       }
 },
-methods: {
-      /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
-}
+  methods: {
+        /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
+        getMonthText(dateArray) {
+              const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October','November', 'December'];
+              year = dateArray[0];
+              monthIndex = dateArray[1] - 1;
+              day = dateArray[2];
+              month = months[monthIndex];
+              return `${month} ${day}, ${year}`;
+        }
+  }
 })
-
 
 vue_app.mount("#vue_app")
