@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Mean Girls",
+            "iscore": 7.1,
+            "rating": "PG-13",
+            "runtime": 97,
+            "released": [2004, 4, 30],
+            "country": "USA",
+            "posters": ["img/meangirls.jpg", "img/girls.png"],
+            "imdb": "https://www.imdb.com/title/tt11762114/?ref_=fn_al_tt_1",
+            "website": "https://meangirlsontour.com/",
+            "likes": 932,
+            "dislikes": 110,
+            "posterindex": 0
+      },
+      {
+            "title": "Titanic",
+            "iscore": 7.3,
+            "rating": "PG-13",
+            "runtime": 194,
+            "released": [1997, 12, 17],
+            "country": "USA",
+            "posters": ["img/titantic.jpg", "img/titantic2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0120338/?ref_=fn_al_tt_1",
+            "website": "https://www.facebook.com/TitanicMovie/",
+            "likes": 963,
+            "dislikes": 29,
+            "posterindex": 0
+      },
+      {
+            "title": "Transformers",
+            "iscore": 7.0,
+            "rating": "PG-13",
+            "runtime": 144,
+            "released": [2007, 8, 3],
+            "country": "USA",
+            "posters": ["img/transformers.jpg", "img/tranformers1.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0418279/?ref_=fn_al_tt_1",
+            "website": "https://www.transformersmovie.com/",
+            "likes": 634,
+            "dislikes": 348,
+            "posterindex": 0
       }
 ]
